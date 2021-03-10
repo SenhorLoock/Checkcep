@@ -5,10 +5,9 @@ import mdl
 
 
 mdl.banner()
-#VARIAVES    
-cep_val = input('                \033[7;32mDigite Um cep: \033[m')
+
 try:
-    
+   cep_val = input('                \033[7;32mDigite Um cep: \033[m') 
 #VERIFICANDO SE NÃO TEM OITO DIGITOS
    if len(cep_val) != 8:
        
